@@ -1,0 +1,29 @@
+{
+  "name": "@intentia-network/shield",
+  "version": "1.0.0",
+  "description": "An open-source, BYOK semantic firewall for autonomous AI agents.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "node examples/demo.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "security",
+    "firewall",
+    "web3"
+  ],
+  "author": "Intentia Network Labs",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.28.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
