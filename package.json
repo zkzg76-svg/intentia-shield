@@ -1,6 +1,6 @@
 {
   "name": "@intentia-network/shield",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "An open-source, BYOK semantic firewall for autonomous AI agents.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
